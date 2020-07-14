@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-export function Song({ title, url, onClick }) {
+export function Song({ title, url }) {
 	return (
-		<div onClick={() => onClick()} className="text-center mt-5">
+		<div className="text-center mt-5">
 			song title {title}
 			song url {url}
 		</div>
@@ -12,6 +12,5 @@ export function Song({ title, url, onClick }) {
 
 Song.propTypes = {
 	title: PropTypes.string,
-	url: PropTypes.string,
-	onClick: PropTypes.func
+	url: PropTypes.string
 };
