@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import { Song } from "./song";
 import { Player } from "./player";
+=======
+<<<<<<< HEAD
+import React, { useState } from "react";
+import { Song } from "./song";
+import { Player } from "./player";
+=======
+import React from "react";
+import { Song } from "./song";
+>>>>>>> 9ed9931eb02132e40771690682b8d2e15d860796
+>>>>>>> 76a9f6008f43baf02ea75a1fb721fa983f089733
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -24,6 +35,10 @@ export function Home() {
 
 	return (
 		<div className="text-center mt-5">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 76a9f6008f43baf02ea75a1fb721fa983f089733
 			{songlist.map((s, i) => (
 				<Song
 					key={i}
@@ -47,6 +62,12 @@ export function Home() {
 					thePlayer.pause();
 				}}
 			/>
+<<<<<<< HEAD
+=======
+=======
+			<Song title={"example"} url={"example"} />
+>>>>>>> 9ed9931eb02132e40771690682b8d2e15d860796
+>>>>>>> 76a9f6008f43baf02ea75a1fb721fa983f089733
 		</div>
 	);
 }
